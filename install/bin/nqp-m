@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/tony/projects/rakudo/install/bin/moar --libpath=/home/tony/projects/rakudo/install/share/nqp/lib /home/tony/projects/rakudo/install/share/nqp/lib/nqp.moarvm "$@"

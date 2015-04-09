@@ -1,0 +1,21 @@
+# pkg-config information for MoarVM 2015.03-80-g1d592be
+#
+prefix=/home/tony/projects/rakudo/install
+package=moar
+includedir=/home/tony/projects/rakudo/install/include
+bindir=/home/tony/projects/rakudo/install/bin
+libdir=/home/tony/projects/rakudo/install/lib
+mastdir=/home/tony/projects/rakudo/install/share/nqp/lib/MAST
+ldopts= -O2 -DNDEBUG -Wl,-rpath,/home/tony/projects/rakudo/install/lib
+exeext=
+version=2015.03-80-g1d592be
+moar=/home/tony/projects/rakudo/install/bin/moar
+libs= -O2 -DNDEBUG -Wl,-rpath,/home/tony/projects/rakudo/install/lib -L/home/tony/projects/rakudo/install/lib -lmoar
+static_libs=
+
+Name:           MoarVM
+Description:    A virtual machine for Rakudo Perl 6 and NQP
+URL:            http://moarvm.org
+Version:        2015.03-80-g1d592be
+Libs:            -O2 -DNDEBUG -Wl,-rpath,/home/tony/projects/rakudo/install/lib -L/home/tony/projects/rakudo/install/lib -lmoar
+Cflags:         -I/home/tony/projects/rakudo/install/include

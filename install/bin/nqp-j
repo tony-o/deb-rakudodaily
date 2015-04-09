@@ -1,0 +1,2 @@
+#!/bin/sh
+exec java -Xss1m -Xmx512m -Xbootclasspath/a:/home/tony/projects/rakudo/install/share/nqp/runtime/nqp-runtime.jar:/home/tony/projects/rakudo/install/share/nqp/runtime/asm-4.1.jar:/home/tony/projects/rakudo/install/share/nqp/runtime/jline-1.0.jar:/home/tony/projects/rakudo/install/share/nqp/lib/nqp.jar -cp /home/tony/projects/rakudo/install/share/nqp/lib nqp "$@"

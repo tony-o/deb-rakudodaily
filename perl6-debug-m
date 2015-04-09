@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/tony/projects/rakudo/install/bin/moar  --execname="$0" --libpath="/home/tony/projects/rakudo/install/share/nqp/lib" --libpath="." /home/tony/projects/rakudo/perl6-debug.moarvm "$@"
