@@ -1,9 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
 
-if [[ "$1" == '' ]]; then
-  echo "Usage: $0 <new path>"
-  exit 0
+REBASE=$1
+if [ "$REBASE" == '' ]; then
+  REBASE="$PWD"
 fi
 
-grep -Irl '/home/tony/projects/rakudo/' ./* | grep -v './rebase.sh' | xargs -n 1 sed -i "s|/home/tony/projects/rakudo/|$1|g" 
+grep -Irl '/home/tony/projects/rakudo/' ./* | grep -v './rebase.sh' | xargs -n 1 sed -i "s|/home/tony/projects/rakudo/|$REBASE|g" 
